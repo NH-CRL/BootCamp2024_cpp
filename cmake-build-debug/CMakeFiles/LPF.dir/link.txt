@@ -1,0 +1,3 @@
+C:\Users\81809\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\LPF.dir/objects.a
+C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\LPF.dir/objects.a @CMakeFiles\LPF.dir\objects1.rsp
+C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LPF.dir/objects.a -Wl,--no-whole-archive -o LPF.exe -Wl,--out-implib,libLPF.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LPF.dir\linkLibs.rsp
