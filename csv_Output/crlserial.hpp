@@ -44,7 +44,7 @@ public:
     }
 
 
-    // double型 N個のシリアルデータ読み込み
+    // std::string型 N個のシリアルデータ読み込み
     // ※", "で区切ること
     int read_sci(int N, std::string *dat) {
         int n = 0; // read num
