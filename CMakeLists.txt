@@ -7,9 +7,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 # 実行ファイルの作成（1つ目は実行ファイルの名前，2つ目以降はソースファイルやヘッダファイルなど）
 add_executable(
-        Hello_world
-        Hello_world/HelloWorld.cpp
-
+        Hello_world #実行ファイル名
+        Hello_world/HelloWorld.cpp #ソースファイルのパス
 )
 add_executable(
         LPF

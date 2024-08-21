@@ -3,7 +3,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
-#include <conio.h>  // Windows向けのヘッダーファイル
+#include <conio.h>  // _kbhit()を使うため．Windows向け
 
 #include "crlserial.hpp"
 
@@ -12,8 +12,19 @@
 #define DATA_NUM 3 // データを読み込む個数（カンマ区切りの列数）を設定
 
 int main() {
+    /*csv保存先*/
+    std::string outputFile = "C:/myClion/BootCamp2024_cpp/csv_Output/csv_Output.csv";
+    /*ヘッダー行*/
+    std::string header = "入力1,入力2,入力3";
 
     std::string dat[DATA_NUM]; //読み込みデータ格納用
+
+
+    std::ofstream outFile(outputFile);
+    if (!outFile.is_open()) {
+        std::cerr << "Error opening file." << std::endl;
+        return -1;
+    }
 
     // シリアルポートの初期化
     crlSerial sc(PORT, BAUD);
@@ -24,15 +35,6 @@ int main() {
     //
     //  pc.baud(115200);
     //
-
-    /*csv保存先*/
-    std::string outputFile = "C:/myClion/BootCamp2024_cpp/csv_Output/csv_Output.csv";
-
-    std::ofstream outFile(outputFile);
-    if (!outFile.is_open()) {
-        std::cerr << "Error opening file." << std::endl;
-        return -1;
-    }
 
     if (sc.check() == true) {
 //        printf("#debug: open serial port [%s]: succeeded!\n", PORT);
@@ -69,7 +71,7 @@ int main() {
         }
     }
 
-    outFile << "入力1, 入力2, 入力3" << std::endl; /*ヘッダー行の追加*/
+    outFile << header << std::endl; /*ヘッダー行の追加*/
     // dataをcsvファイルに出力
     for (const auto& row : data) {
         for (size_t i = 0; i < row.size(); ++i) {
