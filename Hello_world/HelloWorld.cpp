@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main() {
-    //Todo 課題1 Hello worldをターミナルに表示してください
+    //Todo 課題1 Hello worldをターミナルに表示してください．
+    // 課題が出来たら遂次，研究室の先輩に確認してもらってください．
     /*--------------------------------------*/
     std::cout << "Hello world" << std::endl;
 
