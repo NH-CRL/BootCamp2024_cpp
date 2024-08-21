@@ -3,14 +3,16 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <conio.h>  // Windows向けのヘッダーファイル
 
 #include "crlserial.hpp"
 
 #define PORT TEXT("COM8") // ポートを設定
 #define BAUD 115200 // ボーレートを設定
-#define DATA_NUM 7 // データを読み込む個数（カンマ区切りの列数）を設定
+#define DATA_NUM 3 // データを読み込む個数（カンマ区切りの列数）を設定
 
 int main() {
+
     std::string dat[DATA_NUM]; //読み込みデータ格納用
 
     // シリアルポートの初期化
@@ -36,11 +38,18 @@ int main() {
 
     std::vector<std::vector<std::string>> data;
     bool stop_flag;
-    while (getchar() != 27) {
+    while (!stop_flag) {
         if (sc.check() == true) {
             sc.read_sci(DATA_NUM, dat);
+            std::cout << dat[0] << std::endl;
+
             std::vector<std::string> row( std::begin(dat), std::end(dat) );
             data.push_back(row);
+        }
+        //キー押下でループ終了
+        if (_kbhit() == 1) {
+            std::cout << "Cancel programs" << std::endl;
+            stop_flag = true;
         }
     }
 

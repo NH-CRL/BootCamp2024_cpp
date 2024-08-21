@@ -50,27 +50,28 @@ public:
         int n = 0; // read num
         char sBuf[1];
         char sDatBuf[64];
-        int i=0;
+        int i = 0;
         unsigned long nn;
 
-        while(1) {
+        while (1) {
 
-            if(ReadFile(m_handle, sBuf, 1, &nn, 0 ) != 0) { // シリアルポートに対する読み込み
-                if ( nn==1 ) {
-                    if ( sBuf[0]==',' || sBuf[0]==10 || sBuf[0]==13) {
-                        if(n >= N) {
+            if (ReadFile(m_handle, sBuf, 1, &nn, 0) != 0) { // シリアルポートに対する読み込み
+                if (nn == 1) {
+                    if (sBuf[0] == ',' || sBuf[0] == 10 || sBuf[0] == 13) {
+                        if (n >= N) {
                             break;
                         }
-                        sscanf(sDatBuf, "%lf", &(dat[n]));
+                        sDatBuf[i] = '\0'; // 文字列の終端を追加
+                        dat[n] = std::string(sDatBuf); // sDatBufの内容をstd::stringにコピー
                         //std::cout << "#debug: dat["<<n<<"]: " << dat[n] << std::endl;
-                        i=0;
+                        i = 0;
                         n++;
                     } else {
                         sDatBuf[i] = sBuf[0];
                         //std::cout << "#sDat["<<i<<"]: " << sDatBuf[i] << std::endl;
                         i++;
                     }
-                    if ( sBuf[0]==10 || sBuf[0]==13 ) { // '\r'や'\n'を受信すると文字列を閉じる
+                    if (sBuf[0] == 10 || sBuf[0] == 13) { // '\r'や'\n'を受信すると文字列を閉じる
                         break;
                     }
                 }
