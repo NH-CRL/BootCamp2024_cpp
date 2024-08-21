@@ -25,23 +25,39 @@ int main() {
     //  pc.baud(115200);
     //
 
-    std::string outputFile = "C:/myClion/BootCamp2024_cpp/csv_Output.csv";
+    /*csv保存先*/
+    std::string outputFile = "C:/myClion/BootCamp2024_cpp/csv_Output/csv_Output.csv";
+
     std::ofstream outFile(outputFile);
+    if (!outFile.is_open()) {
+        std::cerr << "Error opening file." << std::endl;
+        return -1;
+    }
 
     if (sc.check() == true) {
 //        printf("#debug: open serial port [%s]: succeeded!\n", PORT);
     } else {
         printf("#error: open serial failed!\n");
         printf("#error: port: %s\n", PORT);
-        return -1;
+        return -2;
     }
 
+    /*シリアルポートから受け取ったデータをvectorに格納*/
     std::vector<std::vector<std::string>> data;
     bool stop_flag;
     while (!stop_flag) {
         if (sc.check() == true) {
             sc.read_sci(DATA_NUM, dat);
-            std::cout << dat[0] << std::endl;
+
+            /*シリアルポートから受け取ったデータの表示*/
+            for (int i=0; i < DATA_NUM; i++){
+                std::cout << dat[i];
+                if(i != DATA_NUM - 1){
+                    printf(",");
+                } else {
+                    printf("\n");
+                }
+            }
 
             std::vector<std::string> row( std::begin(dat), std::end(dat) );
             data.push_back(row);
@@ -53,7 +69,8 @@ int main() {
         }
     }
 
-    // Write processed data to output file
+    outFile << "入力1, 入力2, 入力3" << std::endl; /*ヘッダー行の追加*/
+    // dataをcsvファイルに出力
     for (const auto& row : data) {
         for (size_t i = 0; i < row.size(); ++i) {
             if (i > 0) outFile << ",";
