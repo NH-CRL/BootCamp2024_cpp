@@ -52,10 +52,10 @@ RM = C:\Users\81809\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\myClion\BootCamp_2024_cpp
+CMAKE_SOURCE_DIR = C:\myClion\BootCamp2024_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\myClion\BootCamp_2024_cpp\cmake-build-debug
+CMAKE_BINARY_DIR = C:\myClion\BootCamp2024_cpp\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LPF.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/LPF.dir/progress.make
 include CMakeFiles/LPF.dir/flags.make
 
 CMakeFiles/LPF.dir/LPF/LPF.cpp.obj: CMakeFiles/LPF.dir/flags.make
-CMakeFiles/LPF.dir/LPF/LPF.cpp.obj: C:/myClion/BootCamp_2024_cpp/LPF/LPF.cpp
+CMakeFiles/LPF.dir/LPF/LPF.cpp.obj: C:/myClion/BootCamp2024_cpp/LPF/LPF.cpp
 CMakeFiles/LPF.dir/LPF/LPF.cpp.obj: CMakeFiles/LPF.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\myClion\BootCamp_2024_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LPF.dir/LPF/LPF.cpp.obj"
-	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LPF.dir/LPF/LPF.cpp.obj -MF CMakeFiles\LPF.dir\LPF\LPF.cpp.obj.d -o CMakeFiles\LPF.dir\LPF\LPF.cpp.obj -c C:\myClion\BootCamp_2024_cpp\LPF\LPF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\myClion\BootCamp2024_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LPF.dir/LPF/LPF.cpp.obj"
+	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LPF.dir/LPF/LPF.cpp.obj -MF CMakeFiles\LPF.dir\LPF\LPF.cpp.obj.d -o CMakeFiles\LPF.dir\LPF\LPF.cpp.obj -c C:\myClion\BootCamp2024_cpp\LPF\LPF.cpp
 
 CMakeFiles/LPF.dir/LPF/LPF.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LPF.dir/LPF/LPF.cpp.i"
-	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\myClion\BootCamp_2024_cpp\LPF\LPF.cpp > CMakeFiles\LPF.dir\LPF\LPF.cpp.i
+	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\myClion\BootCamp2024_cpp\LPF\LPF.cpp > CMakeFiles\LPF.dir\LPF\LPF.cpp.i
 
 CMakeFiles/LPF.dir/LPF/LPF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LPF.dir/LPF/LPF.cpp.s"
-	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\myClion\BootCamp_2024_cpp\LPF\LPF.cpp -o CMakeFiles\LPF.dir\LPF\LPF.cpp.s
+	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\myClion\BootCamp2024_cpp\LPF\LPF.cpp -o CMakeFiles\LPF.dir\LPF\LPF.cpp.s
 
 CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj: CMakeFiles/LPF.dir/flags.make
-CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj: C:/myClion/BootCamp_2024_cpp/LPF/LPF_func.cpp
+CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj: C:/myClion/BootCamp2024_cpp/LPF/LPF_func.cpp
 CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj: CMakeFiles/LPF.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\myClion\BootCamp_2024_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj"
-	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj -MF CMakeFiles\LPF.dir\LPF\LPF_func.cpp.obj.d -o CMakeFiles\LPF.dir\LPF\LPF_func.cpp.obj -c C:\myClion\BootCamp_2024_cpp\LPF\LPF_func.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\myClion\BootCamp2024_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj"
+	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj -MF CMakeFiles\LPF.dir\LPF\LPF_func.cpp.obj.d -o CMakeFiles\LPF.dir\LPF\LPF_func.cpp.obj -c C:\myClion\BootCamp2024_cpp\LPF\LPF_func.cpp
 
 CMakeFiles/LPF.dir/LPF/LPF_func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LPF.dir/LPF/LPF_func.cpp.i"
-	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\myClion\BootCamp_2024_cpp\LPF\LPF_func.cpp > CMakeFiles\LPF.dir\LPF\LPF_func.cpp.i
+	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\myClion\BootCamp2024_cpp\LPF\LPF_func.cpp > CMakeFiles\LPF.dir\LPF\LPF_func.cpp.i
 
 CMakeFiles/LPF.dir/LPF/LPF_func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LPF.dir/LPF/LPF_func.cpp.s"
-	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\myClion\BootCamp_2024_cpp\LPF\LPF_func.cpp -o CMakeFiles\LPF.dir\LPF\LPF_func.cpp.s
+	C:\Users\81809\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\myClion\BootCamp2024_cpp\LPF\LPF_func.cpp -o CMakeFiles\LPF.dir\LPF\LPF_func.cpp.s
 
 # Object files for target LPF
 LPF_OBJECTS = \
@@ -110,7 +110,7 @@ LPF.exe: CMakeFiles/LPF.dir/build.make
 LPF.exe: CMakeFiles/LPF.dir/linkLibs.rsp
 LPF.exe: CMakeFiles/LPF.dir/objects1.rsp
 LPF.exe: CMakeFiles/LPF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\myClion\BootCamp_2024_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LPF.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\myClion\BootCamp2024_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LPF.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LPF.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/LPF.dir/clean:
 .PHONY : CMakeFiles/LPF.dir/clean
 
 CMakeFiles/LPF.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\myClion\BootCamp_2024_cpp C:\myClion\BootCamp_2024_cpp C:\myClion\BootCamp_2024_cpp\cmake-build-debug C:\myClion\BootCamp_2024_cpp\cmake-build-debug C:\myClion\BootCamp_2024_cpp\cmake-build-debug\CMakeFiles\LPF.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\myClion\BootCamp2024_cpp C:\myClion\BootCamp2024_cpp C:\myClion\BootCamp2024_cpp\cmake-build-debug C:\myClion\BootCamp2024_cpp\cmake-build-debug C:\myClion\BootCamp2024_cpp\cmake-build-debug\CMakeFiles\LPF.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/LPF.dir/depend
 

@@ -1,4 +1,3 @@
-
 # CMakeのバージョンを設定
 cmake_minimum_required(VERSION 3.17)
 
@@ -26,7 +25,5 @@ add_executable(
 add_executable(
         csv_Output
         csv_Output/crlserial.hpp
-        csv_Output/MyFunc.h
         csv_Output/csv_Output.cpp
-        csv_Output/MyConfig.h
 )

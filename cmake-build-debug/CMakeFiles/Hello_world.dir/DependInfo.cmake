@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/myClion/BootCamp_2024_cpp/Hello_world/HelloWorld.cpp" "CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj" "gcc" "CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj.d"
+  "C:/myClion/BootCamp2024_cpp/Hello_world/HelloWorld.cpp" "CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj" "gcc" "CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

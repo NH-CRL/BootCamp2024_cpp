@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hello_world">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Hello_world.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/Hello_world.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -34,15 +34,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_world"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_world"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hello_world/fast">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Hello_world.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/Hello_world.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,15 +57,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_world/fast"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_world/fast"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LPF">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -80,15 +80,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LPF/fast">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -103,15 +103,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF/fast"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF/fast"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="csv_Input">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/csv_Input.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/csv_Input.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -126,15 +126,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Input"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Input"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="csv_Input/fast">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/csv_Input.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/csv_Input.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -149,15 +149,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Input/fast"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Input/fast"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="csv_Output">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/csv_Output.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/csv_Output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -172,15 +172,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Output"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Output"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="csv_Output/fast">
-				<Option output="C:/myClion/BootCamp_2024_cpp/cmake-build-debug/csv_Output.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/csv_Output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -195,61 +195,55 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Output/fast"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv_Output/fast"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/myClion/BootCamp_2024_cpp/cmake-build-debug"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp_2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/Hello_world/HelloWorld.cpp">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/Hello_world/HelloWorld.cpp">
 			<Option target="Hello_world"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/LPF/LPF.cpp">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/LPF/LPF.cpp">
 			<Option target="LPF"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/LPF/LPF.h">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/LPF/LPF.h">
 			<Option target="LPF"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/LPF/LPF_func.cpp">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/LPF/LPF_func.cpp">
 			<Option target="LPF"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/csv_Input/csv_Input.cpp">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Input/csv_Input.cpp">
 			<Option target="csv_Input"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/csv_Output/MyConfig.h">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Output/crlserial.hpp">
 			<Option target="csv_Output"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/csv_Output/MyFunc.h">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Output/csv_Output.cpp">
 			<Option target="csv_Output"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/csv_Output/crlserial.hpp">
-			<Option target="csv_Output"/>
-		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/csv_Output/csv_Output.cpp">
-			<Option target="csv_Output"/>
-		</Unit>
-		<Unit filename="C:/myClion/BootCamp_2024_cpp/CMakeLists.txt">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
