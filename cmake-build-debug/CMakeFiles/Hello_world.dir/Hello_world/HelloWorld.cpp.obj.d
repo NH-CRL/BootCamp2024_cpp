@@ -1,16 +1,5 @@
 CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj: \
  C:\myClion\BootCamp2024_cpp\Hello_world\HelloWorld.cpp \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
- C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -24,8 +13,17 @@ CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj: \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
@@ -46,6 +44,8 @@ CMakeFiles/Hello_world.dir/Hello_world/HelloWorld.cpp.obj: \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+ C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
  C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
