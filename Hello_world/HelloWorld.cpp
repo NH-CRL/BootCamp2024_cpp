@@ -1,9 +1,8 @@
-#include <stdio.h>
 #include <iostream>
 
 int main() {
-
-    /*Hello worldを表示しよう-----------------*/
+    //Todo 課題1 Hello worldをターミナルに表示してください
+    /*--------------------------------------*/
     std::cout << "Hello world" << std::endl;
 
     /*--------------------------------------*/

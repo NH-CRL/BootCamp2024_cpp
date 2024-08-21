@@ -129,19 +129,6 @@ Hello_world/fast:
 .PHONY : Hello_world/fast
 
 #=============================================================================
-# Target rules for targets named LPF
-
-# Build rule for target.
-LPF: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LPF
-.PHONY : LPF
-
-# fast build rule for target.
-LPF/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/build
-.PHONY : LPF/fast
-
-#=============================================================================
 # Target rules for targets named csv_Input
 
 # Build rule for target.
@@ -166,6 +153,19 @@ csv_Output: cmake_check_build_system
 csv_Output/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\csv_Output.dir\build.make CMakeFiles/csv_Output.dir/build
 .PHONY : csv_Output/fast
+
+#=============================================================================
+# Target rules for targets named LPF
+
+# Build rule for target.
+LPF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LPF
+.PHONY : LPF
+
+# fast build rule for target.
+LPF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/build
+.PHONY : LPF/fast
 
 Hello_world/HelloWorld.obj: Hello_world/HelloWorld.cpp.obj
 .PHONY : Hello_world/HelloWorld.obj
@@ -214,30 +214,6 @@ LPF/LPF.s: LPF/LPF.cpp.s
 LPF/LPF.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/LPF/LPF.cpp.s
 .PHONY : LPF/LPF.cpp.s
-
-LPF/LPF_func.obj: LPF/LPF_func.cpp.obj
-.PHONY : LPF/LPF_func.obj
-
-# target to build an object file
-LPF/LPF_func.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj
-.PHONY : LPF/LPF_func.cpp.obj
-
-LPF/LPF_func.i: LPF/LPF_func.cpp.i
-.PHONY : LPF/LPF_func.i
-
-# target to preprocess a source file
-LPF/LPF_func.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/LPF/LPF_func.cpp.i
-.PHONY : LPF/LPF_func.cpp.i
-
-LPF/LPF_func.s: LPF/LPF_func.cpp.s
-.PHONY : LPF/LPF_func.s
-
-# target to generate assembly for a file
-LPF/LPF_func.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/LPF/LPF_func.cpp.s
-.PHONY : LPF/LPF_func.cpp.s
 
 csv_Input/csv_Input.obj: csv_Input/csv_Input.cpp.obj
 .PHONY : csv_Input/csv_Input.obj
@@ -305,9 +281,6 @@ help:
 	@echo ... LPF/LPF.obj
 	@echo ... LPF/LPF.i
 	@echo ... LPF/LPF.s
-	@echo ... LPF/LPF_func.obj
-	@echo ... LPF/LPF_func.i
-	@echo ... LPF/LPF_func.s
 	@echo ... csv_Input/csv_Input.obj
 	@echo ... csv_Input/csv_Input.i
 	@echo ... csv_Input/csv_Input.s

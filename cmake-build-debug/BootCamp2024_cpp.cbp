@@ -63,52 +63,6 @@
 					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LPF">
-				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="LPF/fast">
-				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF/fast"/>
-					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="csv_Input">
 				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/csv_Input.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
@@ -201,6 +155,52 @@
 					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LPF">
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LPF/fast">
+				<Option output="C:/myClion/BootCamp2024_cpp/cmake-build-debug/LPF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF/fast"/>
+					<CompileFile command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/81809/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/myClion/BootCamp2024_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/myClion/BootCamp2024_cpp/cmake-build-debug"/>
 				<Option type="4"/>
@@ -231,13 +231,10 @@
 		<Unit filename="C:/myClion/BootCamp2024_cpp/LPF/LPF.h">
 			<Option target="LPF"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp2024_cpp/LPF/LPF_func.cpp">
-			<Option target="LPF"/>
-		</Unit>
 		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Input/csv_Input.cpp">
 			<Option target="csv_Input"/>
 		</Unit>
-		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Output/crlserial.hpp">
+		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Output/crlserial2024.hpp">
 			<Option target="csv_Output"/>
 		</Unit>
 		<Unit filename="C:/myClion/BootCamp2024_cpp/csv_Output/csv_Output.cpp">

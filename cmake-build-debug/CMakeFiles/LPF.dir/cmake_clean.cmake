@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LPF.dir/LPF/LPF.cpp.obj"
   "CMakeFiles/LPF.dir/LPF/LPF.cpp.obj.d"
-  "CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj"
-  "CMakeFiles/LPF.dir/LPF/LPF_func.cpp.obj.d"
   "LPF.exe"
   "LPF.exe.manifest"
   "LPF.pdb"
